@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{margin: 0;}
+@font-face{font-family: mondo;src: url(../public/Mondo-Bold.ttf);}
+@font-face{font-family: extra;src: url(../public/Mondo-ExtraBold.ttf);}
+@font-face{font-family: ExtraBlack;src: url(../public/Mondo-ExtraBlack.ttf);}
+@font-face{font-family: gothic;src: url(../public/trade-gothic-lt-1361519976.ttf);}
+.error-page>img{width: 300px;}
+.error-page{display: flex;justify-content: space-between;min-width: 200px;padding-top: 52vh;}
+.error-txt>img{width: 450px;position: relative;bottom: 22vh;}
+.err-text{text-align: center;color: #0d154c;font-family: extrablack;position: relative;bottom: 45vh;}
+.err-text>h1{font-size: 90px;}
+.err-text>h2{font-size: 30px;}
+.recipe-search{line-height: 1.05;}
+

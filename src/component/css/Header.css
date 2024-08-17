@@ -1,0 +1,42 @@
+.all-header{background-color: #f45611;justify-content: space-between;padding: 20px 90px;position: sticky;top: 0;z-index: 999;}
+.logo{width: 100px;}
+.Navlink{display: flex; color: white;padding: 10px 0px;gap: 8px;margin: 0 8px;}
+.Navlink>a{font-size: 19px;font-family: extra;transition-duration: 0.2s;}
+.arrow{width: 8px;transition-duration: 0.2s;}
+.me-auto{display: flex;gap: 20px;}
+.search{width: 25px;padding-top: 10px;}
+.grid{display: grid;grid-template-columns: repeat(3, 1fr);}
+.grid>a{padding: 10px 67px;text-align: center;}
+.dropdown-content {font-family: mondo;font-size: 21px;display: none;position: absolute;background-color: white; z-index: 1;width: 100%;left: 0.01%;}
+.drop{display: flex;justify-content: center;align-items: center;padding: 45px;}
+.dropdown-content a {float: none;color: #0d154c;transition-duration: .3s;}
+.dropdown:hover .dropdown-content {display: block;}
+.burger-menu{display: none;}
+.f-links{display: flex;}
+.idk{display: flex;padding: 0px 15px;}
+.all>button{background-color: transparent;border: 0px;}
+form>input {width: 240px;padding: 6px 2px;box-sizing: border-box;border: none;outline: none;background-color: #f45611;font-size: 16px;border-bottom: 2px solid white;border-radius: 0;}
+form>input::placeholder {color: white;opacity: .6;}
+form>input:focus::placeholder {color: white;}
+form>input:focus{color: white;}
+.hide {display: none;}
+@media (min-width: 1200px) {
+  .dropdown-content a:hover {color: #f45611;}
+  .all-auto{display: flex;}
+}
+@media (max-width: 1200px) {
+  .burger-menu{display: block;}
+  .all-header{padding: 10px 30px;}
+  .hamburger {display: inline-block;padding: 10px;}
+  .hamburger .bar {width: 25px;height: 3px;background-color: #fff;margin: 4px 0;transition: 0.4s;}
+  .hamburger.open .bar:nth-child(1) {transform: rotate(-45deg) translate(-5px, 5px);}
+  .hamburger.open .bar:nth-child(2) {opacity: 0;}
+  .hamburger.open .bar:nth-child(3) {transform: rotate(45deg) translate(-5px, -5px);}
+  .me-auto{flex-direction: column;align-items: center;display: none;background-color: #f45611;height: calc(100vh - 60px);}
+  .all-auto{width: 100%;position: absolute;top: 67px; z-index: 1;width: 100%;right: 0.1%;}
+  .f-links{display: none;}
+  .me-auto.open{display: flex;}
+  .dropdown-content{background-color: #f45611;}
+  .dropdown-content a{color: white;}
+  .grid{grid-template-columns: repeat(1, 1fr);}
+}

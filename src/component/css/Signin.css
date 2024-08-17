@@ -1,0 +1,41 @@
+.sign-search{color: #0d154c;max-width: 800px;}
+.sign-search>h2{font-family: mondo;font-size: 80px;font-family: extrablack;padding-bottom: 50px;text-align: center;}
+.sign-container {font-family: mondo;display: flex;border-bottom: 1px solid #0d154c;background-color: white;width: 83%;}
+.sign-input {border: none;outline: none;;border-radius: 25px 0 0 25px;width: 87%;font-size: 21px;color: #0d154c;transition: 0.3s;}
+.sign-input::placeholder {color: #0d154c;opacity: 1;transition: opacity 0.3s;}
+.sign-input.focused::placeholder {opacity: 0.3;font-size: 14px;}
+.all-sign{display: flex;justify-content: space-between;padding: 100px;}
+label{font-size: 15px;}
+.sign-a{padding-top: 40px;}
+.sign-a>h3{font-family: mondo;max-width: 350px;}
+.search-place{padding: 10vh;}
+.keep{color: black;padding-top: 20px;}
+.keep>input{width: 20px;}
+.all-s-p{display: flex;justify-content: center;}
+.sign-txt{text-align: center;}
+
+
+@media (min-width: 1279px){
+    .sgn-photo1>h2,.sgn-photo2>h2,.sgn-photo3>h2,.sgn-photo4>h2{font-family: extrablack;color: #0d154c;font-size: 26px;text-align: center;line-height: 1.05;position: relative;}
+    .sgn-photo1>h2{bottom: 20vh;left: 30px;max-width: 200px;}
+    .sgn-photo2>h2{bottom: 12vh;max-width: 250px;}
+    .sgn-photo3>h2{bottom: 15vh;max-width: 200px;left: 55px;}
+    .sgn-photo4>h2{bottom: 18vh;max-width: 220px;left: 10px;}
+    .sgn-photo1,.sgn-photo2,.sgn-photo3,.sgn-photo4{position: relative;}
+    .sgn-photo1{top: 17vh;left: 15vh;rotate: -15deg;}
+    .sgn-photo2{top: 40vh;rotate: 15deg;right: 16vh;}
+    .sgn-photo3{top: 20vh;rotate: 12deg;left: 10vh;}
+    .sgn-photo4{top: 34vh;rotate: -12deg;right: 17vh;}
+    .all-s-carousel{display: none;}
+}
+@media (max-width: 1279px){
+    .sgn-photo1,.sgn-photo2,.sgn-photo3,.sgn-photo4{display: none;}
+   .all-sign-search{display: flex;justify-content: center; width: 100%;}
+    .all-sgn-photo{display: flex;justify-content: center;}
+    .sgn-photo>h2{position: absolute;bottom: 50%;font-family: extrablack;font-size: 22px;right: 23%;}
+}
+@media (max-width: 1279px){
+    .sign-search>h2{font-size: 50px;}
+    .sgn-photo>h2{font-size: 16px;}
+    .sgn-photo>img{width: 150px;}
+}

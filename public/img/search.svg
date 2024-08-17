@@ -1,0 +1,34 @@
+<svg
+         id="search-loupe"
+         xmlns="http://www.w3.org/2000/svg"
+         width="30"
+         height="30"
+         viewBox="0 0 24 24"
+      >
+         <g id="Group_1" data-name="Group 1">
+            <circle
+               id="Ellipse_1"
+               data-name="Ellipse 1"
+               cx="7.059"
+               cy="7.059"
+               r="7.059"
+               transform="translate(4 4)"
+               fill="none"
+               stroke="#fff"
+               stroke-width="1.5"
+            />
+            <line
+               id="Line_1"
+               data-name="Line 1"
+               x1="3.95"
+               y1="3.95"
+               transform="translate(16.05 16.05)"
+               fill="none"
+               stroke="#fff"
+               stroke-linecap="square"
+               stroke-linejoin="round"
+               stroke-width="1.5"
+            />
+         </g>
+         <rect id="Rectangle_1" data-name="Rectangle 1" width="24" height="24" fill="none" />
+      </svg>

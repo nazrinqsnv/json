@@ -1,0 +1,70 @@
+.all-about{display: flex;height: calc(100vh - 120px); }
+.about-photo,.a-img{background-repeat: no-repeat;background-position: center;background-size: cover;}
+.about-photo{width: 50%;order: 2;}
+.a-img{width: 30px;height: 30px;border-radius: 50%;}
+.about{width: 50%;display: flex;justify-content: center;align-items: center;text-align: center;padding: 50px 20px;}
+.about-txt>h2{font-family: extrablack;font-size: 50px;}
+.about-txt>p{line-height: 1.6;}
+.about-txt{line-height: 1.05;color: #0d154c;font-family: gothic;font-size: 18px;max-width: 59%;min-width: 200px;}
+.all-author{display: flex;justify-content: space-between;}
+.all-author>.txt3{order: 3;}
+.cook{display: flex;}
+.ingr{width: 50%;background-color: #0d154c;color: white;padding: 30px 100px;}
+.method{width: 50%;}
+.nutrition{display: grid;grid-template-columns: 100px 1fr;grid-gap: 16px;border-bottom: 1px solid hsla(0, 0%, 100%, .2);font-size: 18px;font-family: mondo;padding: 6px 0;}
+.all-nutr{padding: 30px 0 0;}
+.nutr-txt>h2{font-size: 22px;}
+.cook{font-family: mondo;}
+.ingr-head>h2{font-size: 36px;}
+.method{color: #0d154c;font-size: 20px;line-height: 1.6;padding: 80px 100px 100px;}
+.rating{background-color: #ffda00;display: flex;justify-content: center;padding: 100px 0;text-align: center;}
+.rating-cont{max-width: 530px;font-family: mondo;min-width: 100px;}
+.rating-cont>h2{color: #0d154c;font-size: 53px;font-family: extrablack;line-height: 1.1;width: 100%;}
+input[type=radio]{display: none;}
+.star{cursor: pointer;}
+.all-rate{display: flex;justify-content: center;padding: 20px 0px 20px 0px;}
+.chef-about{padding: 90px 100px 50px;display: flex;}
+.chef{background-color: #131a33;color: white;font-family: mondo;}
+.chef-img{width: 400px;height: 400px;background-repeat: no-repeat;background-position: center;background-size: cover;border-radius: 50%;}
+.chef-button>button,.about-button>button{border: 2px solid #f7374a;padding: 10px 35px;border-radius: 70%; color: #f7374a;font-size: 20px;font-family: extrablack;}
+.chef-button{order: 3;display: flex;justify-content: end;width: 100%;height: 60px;}
+.chef-txt{font-size: 18px;padding: 0px 90px 0px 90px;}
+.chef-txt>p{padding-top: 10px;}
+.chef-header>h2{font-size: 56px;font-family: extrablack;line-height: 1.02;min-width: 100px;}
+.other-recipes{font-family: mondo;padding: 20px 90px 20px 90px;}
+.other-recipes>h2,.all-chef{font-size: 50px;padding: 0px 20px 0px 20px;line-height: 1.05;font-family: extrablack;color: white;}
+.other-img{width: 100%;height: 359px;background-repeat: no-repeat;background-position: center;background-size: cover;rotate: -2deg;transition-duration: .3s;border-radius: 10px;}
+.rec-card{padding: 30px;}
+.rec-card>h2{font-size: 40px;font-family: ExtraBlack;line-height: 1.05;padding: 30px 0px 10px 0px;}
+.rec-card:hover .other-img{rotate: 0deg;scale: 1.05;box-shadow: 0px 1px 14px 1px rgba(0,0,0,0.75);}
+.hashtag-footer{display: flex;overflow: hidden;}
+.content-photo{display: flex;justify-content: center;margin: 50px;}
+.content-photo>img{width: 500px;}
+@media (max-width: 1200px) {
+    .all-about{display: block;height: 100%;}
+    .about{width: 100%;}
+    .about-photo{width: 100%;height: 100px;}
+    .cook{display: block;}
+    .ingr{width: 100%;padding: 30px 30px;}
+    .method{width: 100%;padding: 80px 30px 30px;}
+    .chef-about{display: block;}
+    .chef-photo{display: flex;justify-content: center;}
+    .chef-txt{padding: 0px;}
+}
+@media (max-width: 600px) {
+    .about-photo{height: 280px;} 
+    .about{padding: 10px 0px}
+    .about-txt>h2{font-size: 30px;}
+    .all-author{display: block;}
+    .all-a{display: flex;justify-content: center;}
+    .all-author>.txt3{padding: 15px 0px;}
+    .chef-button{justify-content: center;margin: 20px 0px 20px 0px;}
+    .chef-img{width: 120px;height: 120px;}
+    .chef-header>h2{font-size: 30px;}
+    .chef-about{padding: 40px 50px 50px;}
+    .chef-txt{text-align: center;}
+    .other-recipes>h2{font-size: 40px;padding: 0px;}
+    .other-recipes{font-family: mondo;padding: 20px 40px 20px 40px;}
+    .rec-card{padding: 30px 6px;}
+    .rating-cont>h2{font-size: 30px;}
+}
